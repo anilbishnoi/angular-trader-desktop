@@ -1,0 +1,61 @@
+/* -----------------------------------------------------------------------------
+ * Accounts tab
+ * -------------------------------------------------------------------------- */
+/* line 5, ../../sass/widgets/Dashboard.scss */
+label {
+  margin-bottom: 10px;
+  width: 125px;
+}
+
+/* line 10, ../../sass/widgets/Dashboard.scss */
+table {
+  width: 100%;
+  margin-top: 15px;
+}
+/* line 15, ../../sass/widgets/Dashboard.scss */
+table thead {
+  background: #CCC;
+  margin-bottom: 15px;
+}
+/* line 20, ../../sass/widgets/Dashboard.scss */
+table td {
+  padding: 05px;
+}
+/* line 24, ../../sass/widgets/Dashboard.scss */
+table .name {
+  width: 180px;
+}
+/* line 28, ../../sass/widgets/Dashboard.scss */
+table .accountNum, table .market-value, table .cash, table .action {
+  width: 135px;
+}
+
+/* line 34, ../../sass/widgets/Dashboard.scss */
+.headerTop {
+  padding: 15px;
+  background: #F89F1B;
+}
+
+/* line 39, ../../sass/widgets/Dashboard.scss */
+.container {
+  paddding: 15px;
+}
+/* line 42, ../../sass/widgets/Dashboard.scss */
+.container .tabContainer {
+  padding: 15px;
+  border-bottom: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+/* line 49, ../../sass/widgets/Dashboard.scss */
+.container input[type="button"] {
+  border: 1px solid #ccc;
+}
+/* line 53, ../../sass/widgets/Dashboard.scss */
+.container .accounts-left-section, .container .accounts-right-section {
+  display: inline-block;
+}
+/* line 57, ../../sass/widgets/Dashboard.scss */
+.container .accounts-left-section {
+  width: 900;
+}

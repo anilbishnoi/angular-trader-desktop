@@ -1,0 +1,17 @@
+<!-- main page.html -->
+
+<div class="headerTop">
+	<h1>Bullsfirst</h1>
+</div>
+<div class=""><br/> </div>
+<div class="">
+	<tabset>
+		<tab heading="Accounts"  ng-controller="DashboardCtrl">
+			<div class="tabContainer accountsTab" ng-include src="'Views/Dashboard/Dashboard.html'"></div>
+		</tab>
+		<tab heading="Charts"  ng-controller="HighchartCtrl">
+			<div class="tabContainer chartTab" ng-include src="'Views/Charts/Highcharts.html'"></div>
+			</div>
+		</tab>
+	</tabset>
+</div>

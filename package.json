@@ -1,0 +1,20 @@
+{
+  "name": "bullsfirst",
+  "description": "Demonstrates a interactive and visual trading platform",
+  "version": "0.0.1",
+  "dependencies": {
+    "bookshelf": "^0.7.6",
+    "knex": "^0.6.22"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-clean": "0.4.x",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-jshint": "0.2.x",
+    "grunt-contrib-requirejs": "0.4.x",
+    "grunt-contrib-watch": "0.3.x",
+    "chai": "*",
+    "mocha": "*"
+  }
+}

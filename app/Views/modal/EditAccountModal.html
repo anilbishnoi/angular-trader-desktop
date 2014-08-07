@@ -1,0 +1,34 @@
+        <div class="modal-header">
+            <h3>Edit Account</h3>
+        </div>
+        <div class="modal-body">
+        
+            <div class="nameSection">
+                
+                <label> Name </label>
+
+                <input type="text" ng-model="newAccount.name" />
+            </div>  
+            <div class="accountSection">
+                
+                <label> Account # </label>
+                <input type="text" ng-model="newAccount.id" />
+            
+            </div>
+            <div class="cashSection">
+                <label> Cash Value: </label>
+                <input type="text" ng-model="newAccount.cashPosition.amount" />
+            </div>
+            <div class="positionSection">
+                <label> Market Value: </label>
+                <input type="text" ng-model="newAccount.marketValue.amount" />
+            </div>
+            <div class="dateSection">
+                <label> Date: </label>
+                <input type="" value="" ng-model="newAccount.lastUpdated" />
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="edit()">Edit</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>

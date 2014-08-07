@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bullsfirst</title>
+        
+        <!-- style sheets-->
+        <link rel="stylesheet" href="css/index.css">
+        
+    </head>
+    <body ng-app="bullsfirst">
+
+        <div class="container clearfix" ng-view></div>
+
+        <!-- vendors -->
+        <script src="Scripts/vendors/jquery.min.js"></script>
+        <script src="Scripts/vendors/angular/angular.js"></script>
+        <script src="Scripts/vendors/ui-bootstrap-tpls-0.10.0.min.js"></script>
+        <script src="Scripts/vendors/angular/angular-route.js"></script>
+        <script src="Scripts/vendors/highcharts/highcharts.js"></script>
+        <script src="https://rawgithub.com/pablojim/highcharts-ng/master/dist/highcharts-ng.js"></script>
+
+
+        <script src="Scripts/app.js"></script>
+
+        <!-- Services -->
+        <script src="scripts/Services/DashboardSvc.js"></script>
+
+        <!-- Controllers -->
+        <script src="Scripts/Controllers/Dashboard/DashboardCtrl.js"></script>
+        <script src="Scripts/Controllers/ModalInstance/ModalInstanceCtrl.js"></script>
+        <script src="Scripts/Controllers/Charts/HighchartCtrl.js"></script>
+
+    </body>
+</html>

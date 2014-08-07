@@ -1,0 +1,42 @@
+[
+    {
+        "id": 234,
+        "name": "Brokerage Account 1",
+        "marketValue": {
+            "amount": 3000,
+            "currency": "USD"
+        },
+        "cashPosition": {
+            "amount": 1000,
+            "currency": "USD"
+        },
+        "lastUpdated": "2014-06-29T10:00:00-05:00"
+        
+    },
+    {
+        "id": 26,
+        "name": "Brokerage Account 0",
+        "marketValue": {
+            "amount": 2500,
+            "currency": "USD"
+        },
+        "cashPosition": {
+            "amount": 2200,
+            "currency": "USD"
+        },
+        "lastUpdated": "2014-05-29T10:00:00-05:00"
+    },
+    {
+        "id": 28,
+        "name": "Brokerage Account 3",
+        "marketValue": {
+            "amount": 3500,
+            "currency": "USD"
+        },
+        "cashPosition": {
+            "amount": 5200,
+            "currency": "USD"
+        },
+        "lastUpdated": "2014-01-29T10:00:00-05:00"
+    }
+]

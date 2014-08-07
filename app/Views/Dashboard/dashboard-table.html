@@ -1,0 +1,24 @@
+
+<thead>
+	<tr>
+		<td> <a href="" ng-click="sortBy='name'; reverseSort = !reverseSort"> Name </a> </td>
+		<td> <a href="" ng-click="sortBy='id'; reverseSort = !reverseSort">Account # </a> </td>
+		<td> <a href="" ng-click="sortBy='marketValue.amount'; reverseSort = !reverseSort">Market Value </a></td>
+		<td> <a href="" ng-click="sortBy='cashPosition.amount'; reverseSort = !reverseSort">Cash </a></td>
+		<td> <a href="" ng-click="sortBy='lastUpdated'; reverseSort = !reverseSort ">Last Updated </a></td>
+		<td>Action</td>
+	</tr>
+</thead>
+<tbody>
+	<tr ng-repeat="account in accounts | orderBy:sortBy:reverseSort ">            
+	    <td class="name">{{account.name}}</td>
+	    <td class="accountNum">{{account.id}}</td>
+	    <td class="market-value">{{account.marketValue.amount | currency}}</td>
+	    <td class="cash">{{account.cashPosition.amount | currency}}</td>
+	    <td class="lastuUpdated">{{account.lastUpdated | date:'MMM-dd-yyyy h:mma'}}</td>
+	    <td class="action">
+	    	<input type="Button" class="btn btn-info" value="Edit" ng-click="editAccount($index)"/>
+	    	<input type="Button" class="btn btn-danger" value="Delete" ng-click="deleteAccount($index)"/>
+	    </td>
+	</tr>
+</tbody>

@@ -1,0 +1,60 @@
+/* -----------------------------------------------------------------------------
+ * Accounts tab
+ * -------------------------------------------------------------------------- */
+
+label {
+	margin-bottom: 10px;
+	width: 125px;
+}
+
+table {
+	
+	width: 100%;
+	margin-top: 15px;
+
+	thead {
+		background: #CCC;
+		margin-bottom: 15px; 
+	}
+
+	td {
+		padding: 05px;
+	}
+
+	.name {
+		width: 180px;
+	}
+
+	.accountNum, .market-value, .cash, .action {
+		width: 135px;
+	}
+
+}
+
+.headerTop {
+	padding: 15px;
+	background: #F89F1B;	
+}
+
+.container {
+	paddding: 15px;
+
+	.tabContainer {
+		padding: 15px;
+		border-bottom: 1px solid #DDDDDD;
+    	border-left: 1px solid #DDDDDD;
+    	border-right: 1px solid #DDDDDD;
+	}
+
+	input[type="button"] {
+		border: 1px solid #ccc; 
+	}
+
+	.accounts-left-section, .accounts-right-section {
+		display: inline-block;
+	}
+
+	.accounts-left-section {
+		width: 900;
+	}
+}
